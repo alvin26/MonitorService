@@ -1,0 +1,495 @@
+{ "Date": "2023-04-07 18:17:23,224", "level": "INFO", "msg": "go into Main" }
+{ "Date": "2023-04-07 18:17:23,519", "level": "INFO", "msg": "Start UseStartup..." }
+{ "Date": "2023-04-07 18:17:23,519", "level": "INFO", "msg": "Finish UseStartup..." }
+{ "Date": "2023-04-07 18:17:23,930", "level": "INFO", "msg": "_appRootPath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:17:23,930", "level": "INFO", "msg": "filePath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host\\App_Data/Scheduler.json" }
+{ "Date": "2023-04-07 18:17:24,110", "level": "INFO", "msg": "jobFilePath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host\\App_Data/Autofac/Job.json" }
+{ "Date": "2023-04-07 18:17:24,501", "level": "DEBUG", "msg": "TaskSchedulingThreadPool configured with max concurrency of 1 and TaskScheduler ThreadPoolTaskScheduler." }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl" }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "Quartz Scheduler created" }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory" }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "RAMJobStore initialized." }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "Quartz Scheduler 3.6.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized" }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 1" }
+{ "Date": "2023-04-07 18:17:24,529", "level": "INFO", "msg": "Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False" }
+{ "Date": "2023-04-07 18:17:24,538", "level": "INFO", "msg": "Scheduler QuartzScheduler_$_NON_CLUSTERED started." }
+{ "Date": "2023-04-07 18:17:24,538", "level": "INFO", "msg": "Scheduler Start..." }
+{ "Date": "2023-04-07 18:17:24,538", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:17:24,538", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:17:24,695", "level": "DEBUG", "msg": "Hosting starting" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "INFO", "msg": "Now listening on: http://localhost:5000" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "DEBUG", "msg": "Loaded hosting startup assembly IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "DEBUG", "msg": "Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "DEBUG", "msg": "Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "INFO", "msg": "Application started. Press Ctrl+C to shut down." }
+{ "Date": "2023-04-07 18:17:24,884", "level": "INFO", "msg": "Hosting environment: Development" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "INFO", "msg": "Content root path: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:17:24,884", "level": "DEBUG", "msg": "Hosting started" }
+{ "Date": "2023-04-07 18:17:24,931", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4O\" accepted." }
+{ "Date": "2023-04-07 18:17:24,931", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4O\" started." }
+{ "Date": "2023-04-07 18:17:24,931", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4P\" accepted." }
+{ "Date": "2023-04-07 18:17:24,931", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4P\" started." }
+{ "Date": "2023-04-07 18:17:24,967", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4P\" received FIN." }
+{ "Date": "2023-04-07 18:17:24,967", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4O\" received FIN." }
+{ "Date": "2023-04-07 18:17:24,974", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4P\" disconnecting." }
+{ "Date": "2023-04-07 18:17:24,974", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4O\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:17:24,974", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4P\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:17:24,974", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4O\" disconnecting." }
+{ "Date": "2023-04-07 18:17:24,974", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4O\" stopped." }
+{ "Date": "2023-04-07 18:17:24,974", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4P\" stopped." }
+{ "Date": "2023-04-07 18:17:25,225", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4Q\" accepted." }
+{ "Date": "2023-04-07 18:17:25,225", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4Q\" started." }
+{ "Date": "2023-04-07 18:17:25,272", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4R\" accepted." }
+{ "Date": "2023-04-07 18:17:25,272", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4R\" started." }
+{ "Date": "2023-04-07 18:17:25,272", "level": "INFO", "msg": "Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast - -" }
+{ "Date": "2023-04-07 18:17:25,305", "level": "DEBUG", "msg": "Wildcard detected, all requests with hosts will be allowed." }
+{ "Date": "2023-04-07 18:17:25,305", "level": "TRACE", "msg": "All hosts are allowed." }
+{ "Date": "2023-04-07 18:17:25,336", "level": "DEBUG", "msg": "1 candidate(s) found for the request path '/weatherforecast'" }
+{ "Date": "2023-04-07 18:17:25,336", "level": "DEBUG", "msg": "Endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'" }
+{ "Date": "2023-04-07 18:17:25,336", "level": "DEBUG", "msg": "Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:17:25,336", "level": "INFO", "msg": "Executing endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:17:25,347", "level": "DEBUG", "msg": "Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "INFO", "msg": "Route matched with {action = \"Get\", controller = \"WeatherForecast\"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[IndoCash.MonitorService.Host.WeatherForecast] Get() on controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host)." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Execution plan of authorization filters (in the following order): None" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Execution plan of resource filters (in the following order): None" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Execution plan of exception filters (in the following order): None" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "DEBUG", "msg": "Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "INFO", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) - Validation state: Valid" }
+{ "Date": "2023-04-07 18:17:25,364", "level": "INFO", "msg": "Executed action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5665ms." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:25,364", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:25,379", "level": "TRACE", "msg": "Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult." }
+{ "Date": "2023-04-07 18:17:25,379", "level": "DEBUG", "msg": "List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter" }
+{ "Date": "2023-04-07 18:17:25,379", "level": "DEBUG", "msg": "No information found on request to perform content negotiation." }
+{ "Date": "2023-04-07 18:17:25,379", "level": "DEBUG", "msg": "Attempting to select an output formatter without using a content type as no explicit content types were specified for the response." }
+{ "Date": "2023-04-07 18:17:25,379", "level": "DEBUG", "msg": "Attempting to select the first formatter in the output formatters list which can write the result." }
+{ "Date": "2023-04-07 18:17:25,379", "level": "DEBUG", "msg": "Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response." }
+{ "Date": "2023-04-07 18:17:25,379", "level": "INFO", "msg": "Executing ObjectResult, writing value of type 'IndoCash.MonitorService.Host.WeatherForecast[]'." }
+{ "Date": "2023-04-07 18:17:25,490", "level": "TRACE", "msg": "After executing action result Microsoft.AspNetCore.Mvc.ObjectResult." }
+{ "Date": "2023-04-07 18:17:25,490", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:25,490", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:25,490", "level": "INFO", "msg": "Executed action IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) in 124.2282ms" }
+{ "Date": "2023-04-07 18:17:25,490", "level": "INFO", "msg": "Executed endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:17:25,490", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4Q\" completed keep alive response." }
+{ "Date": "2023-04-07 18:17:25,490", "level": "INFO", "msg": "Request finished HTTP/1.1 GET http://localhost:5000/weatherforecast - - - 200 - application/json;+charset=utf-8 228.1928ms" }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4S\" accepted." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4S\" started." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4S\" received FIN." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4S\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4S\" disconnecting." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4T\" accepted." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4S\" stopped." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4T\" started." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "INFO", "msg": "Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273" }
+{ "Date": "2023-04-07 18:17:29,131", "level": "TRACE", "msg": "All hosts are allowed." }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "1 candidate(s) found for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:17:29,131", "level": "DEBUG", "msg": "Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:17:29,131", "level": "INFO", "msg": "Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "INFO", "msg": "Route matched with {action = \"ReportToMonitor\", controller = \"Notice\"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)." }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Execution plan of authorization filters (in the following order): None" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Execution plan of resource filters (in the following order): None" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Execution plan of exception filters (in the following order): None" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:17:29,151", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:17:29,159", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ..." }
+{ "Date": "2023-04-07 18:17:29,159", "level": "DEBUG", "msg": "Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'." }
+{ "Date": "2023-04-07 18:17:29,159", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4T\", Request id \"0HMPNA5462E4T:00000002\": started reading request body." }
+{ "Date": "2023-04-07 18:17:29,159", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4T\", Request id \"0HMPNA5462E4T:00000002\": done reading request body." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage'" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "INFO", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage)" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "ERROR", "msg": "執行失敗:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "INFO", "msg": "Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.5901ms." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "No information found on request to perform content negotiation." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Attempting to select an output formatter without using a content type as no explicit content types were specified for the response." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Attempting to select the first formatter in the output formatters list which can write the result." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "INFO", "msg": "Executing OkObjectResult, writing value of type 'System.String'." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "INFO", "msg": "Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 35.5065ms" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "INFO", "msg": "Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:17:29,179", "level": "DEBUG", "msg": "Connection id \"0HMPNA5462E4T\" completed keep alive response." }
+{ "Date": "2023-04-07 18:17:29,179", "level": "INFO", "msg": "Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273 - 200 - text/plain;+charset=utf-8 52.0356ms" }
+{ "Date": "2023-04-07 18:17:34,570", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "INFO", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:17:34,585", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:17:34,599", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:17:58,896", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:18:23,112", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:18:34,556", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:18:34,556", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:18:34,556", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:18:34,556", "level": "TRACE", "msg": "[Service Warning]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.09 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:18:34,556", "level": "WARN", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.09 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:18:34,566", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:18:34,566", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:18:34,566", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:18:34,566", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:18:34,566", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:19:02,596", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:20:04.803", "level": "INFO", "msg": "go into Main" }
+{ "Date": "2023-04-07 18:20:04.986", "level": "INFO", "msg": "Start UseStartup..." }
+{ "Date": "2023-04-07 18:20:04.988", "level": "INFO", "msg": "Finish UseStartup..." }
+{ "Date": "2023-04-07 18:20:05.411", "level": "INFO", "msg": "_appRootPath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:20:05.411", "level": "INFO", "msg": "filePath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host\\App_Data/Scheduler.json" }
+{ "Date": "2023-04-07 18:20:05.586", "level": "INFO", "msg": "jobFilePath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host\\App_Data/Autofac/Job.json" }
+{ "Date": "2023-04-07 18:20:05.940", "level": "DEBUG", "msg": "TaskSchedulingThreadPool configured with max concurrency of 1 and TaskScheduler ThreadPoolTaskScheduler." }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl" }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "Quartz Scheduler created" }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory" }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "RAMJobStore initialized." }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "Quartz Scheduler 3.6.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized" }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 1" }
+{ "Date": "2023-04-07 18:20:05.964", "level": "INFO", "msg": "Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False" }
+{ "Date": "2023-04-07 18:20:05.973", "level": "INFO", "msg": "Scheduler QuartzScheduler_$_NON_CLUSTERED started." }
+{ "Date": "2023-04-07 18:20:05.973", "level": "INFO", "msg": "Scheduler Start..." }
+{ "Date": "2023-04-07 18:20:05.973", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:20:05.973", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:20:06.146", "level": "DEBUG", "msg": "Hosting starting" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "INFO", "msg": "Now listening on: http://localhost:5000" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "DEBUG", "msg": "Loaded hosting startup assembly IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "DEBUG", "msg": "Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "DEBUG", "msg": "Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "INFO", "msg": "Application started. Press Ctrl+C to shut down." }
+{ "Date": "2023-04-07 18:20:06.347", "level": "INFO", "msg": "Hosting environment: Development" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "INFO", "msg": "Content root path: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:20:06.347", "level": "DEBUG", "msg": "Hosting started" }
+{ "Date": "2023-04-07 18:20:06.484", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV7\" received FIN." }
+{ "Date": "2023-04-07 18:20:06.484", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV6\" received FIN." }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV6\" accepted." }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV7\" accepted." }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV6\" started." }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV7\" started." }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV7\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV6\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV6\" disconnecting." }
+{ "Date": "2023-04-07 18:20:06.492", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV7\" disconnecting." }
+{ "Date": "2023-04-07 18:20:06.504", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV6\" stopped." }
+{ "Date": "2023-04-07 18:20:06.504", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV7\" stopped." }
+{ "Date": "2023-04-07 18:20:06.679", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV8\" accepted." }
+{ "Date": "2023-04-07 18:20:06.679", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV8\" started." }
+{ "Date": "2023-04-07 18:20:06.722", "level": "INFO", "msg": "Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast - -" }
+{ "Date": "2023-04-07 18:20:06.739", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV9\" accepted." }
+{ "Date": "2023-04-07 18:20:06.739", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV9\" started." }
+{ "Date": "2023-04-07 18:20:06.757", "level": "DEBUG", "msg": "Wildcard detected, all requests with hosts will be allowed." }
+{ "Date": "2023-04-07 18:20:06.757", "level": "TRACE", "msg": "All hosts are allowed." }
+{ "Date": "2023-04-07 18:20:06.788", "level": "DEBUG", "msg": "1 candidate(s) found for the request path '/weatherforecast'" }
+{ "Date": "2023-04-07 18:20:06.788", "level": "DEBUG", "msg": "Endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'" }
+{ "Date": "2023-04-07 18:20:06.788", "level": "DEBUG", "msg": "Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:06.788", "level": "INFO", "msg": "Executing endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:06.788", "level": "DEBUG", "msg": "Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "INFO", "msg": "Route matched with {action = \"Get\", controller = \"WeatherForecast\"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[IndoCash.MonitorService.Host.WeatherForecast] Get() on controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host)." }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Execution plan of authorization filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Execution plan of resource filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Execution plan of exception filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "DEBUG", "msg": "Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:20:06.809", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "INFO", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) - Validation state: Valid" }
+{ "Date": "2023-04-07 18:20:06.816", "level": "INFO", "msg": "Executed action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0385ms." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:06.816", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:06.833", "level": "TRACE", "msg": "Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult." }
+{ "Date": "2023-04-07 18:20:06.833", "level": "DEBUG", "msg": "List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter" }
+{ "Date": "2023-04-07 18:20:06.833", "level": "DEBUG", "msg": "No information found on request to perform content negotiation." }
+{ "Date": "2023-04-07 18:20:06.833", "level": "DEBUG", "msg": "Attempting to select an output formatter without using a content type as no explicit content types were specified for the response." }
+{ "Date": "2023-04-07 18:20:06.833", "level": "DEBUG", "msg": "Attempting to select the first formatter in the output formatters list which can write the result." }
+{ "Date": "2023-04-07 18:20:06.833", "level": "DEBUG", "msg": "Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response." }
+{ "Date": "2023-04-07 18:20:06.833", "level": "INFO", "msg": "Executing ObjectResult, writing value of type 'IndoCash.MonitorService.Host.WeatherForecast[]'." }
+{ "Date": "2023-04-07 18:20:06.935", "level": "TRACE", "msg": "After executing action result Microsoft.AspNetCore.Mvc.ObjectResult." }
+{ "Date": "2023-04-07 18:20:06.935", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:06.935", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:06.942", "level": "INFO", "msg": "Executed action IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) in 127.8226ms" }
+{ "Date": "2023-04-07 18:20:06.942", "level": "INFO", "msg": "Executed endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:06.942", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV8\" completed keep alive response." }
+{ "Date": "2023-04-07 18:20:06.942", "level": "INFO", "msg": "Request finished HTTP/1.1 GET http://localhost:5000/weatherforecast - - - 200 - application/json;+charset=utf-8 228.6776ms" }
+{ "Date": "2023-04-07 18:20:16.004", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:20:16.019", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVA\" accepted." }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVA\" received FIN." }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVA\" started." }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVA\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVA\" disconnecting." }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\" accepted." }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVA\" stopped." }
+{ "Date": "2023-04-07 18:20:17.186", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\" started." }
+{ "Date": "2023-04-07 18:20:17.191", "level": "INFO", "msg": "Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272" }
+{ "Date": "2023-04-07 18:20:17.191", "level": "TRACE", "msg": "All hosts are allowed." }
+{ "Date": "2023-04-07 18:20:17.191", "level": "DEBUG", "msg": "1 candidate(s) found for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:20:17.191", "level": "DEBUG", "msg": "Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:20:17.191", "level": "DEBUG", "msg": "Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:17.191", "level": "INFO", "msg": "Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "INFO", "msg": "Route matched with {action = \"ReportToMonitor\", controller = \"Notice\"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)." }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Execution plan of authorization filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Execution plan of resource filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Execution plan of exception filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ..." }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'." }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\", Request id \"0HMPNA6KAPGVB:00000002\": started reading request body." }
+{ "Date": "2023-04-07 18:20:17.206", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\", Request id \"0HMPNA6KAPGVB:00000002\": done reading request body." }
+{ "Date": "2023-04-07 18:20:17.234", "level": "DEBUG", "msg": "JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage'" }
+{ "Date": "2023-04-07 18:20:17.234", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:20:17.234", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:20:17.234", "level": "DEBUG", "msg": "Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:20:17.234", "level": "DEBUG", "msg": "Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "INFO", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid" }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage)" }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "執行開始:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345" }
+{ "Date": "2023-04-07 18:20:17.237", "level": "INFO", "msg": "Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.4355ms." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "DEBUG", "msg": "List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter" }
+{ "Date": "2023-04-07 18:20:17.237", "level": "DEBUG", "msg": "No information found on request to perform content negotiation." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "DEBUG", "msg": "Attempting to select an output formatter without using a content type as no explicit content types were specified for the response." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "DEBUG", "msg": "Attempting to select the first formatter in the output formatters list which can write the result." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "DEBUG", "msg": "Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "INFO", "msg": "Executing OkObjectResult, writing value of type 'System.String'." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "INFO", "msg": "Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 36.9955ms" }
+{ "Date": "2023-04-07 18:20:17.237", "level": "INFO", "msg": "Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:17.237", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\" completed keep alive response." }
+{ "Date": "2023-04-07 18:20:17.237", "level": "INFO", "msg": "Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272 - 200 - text/plain;+charset=utf-8 53.0926ms" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "INFO", "msg": "Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "All hosts are allowed." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "1 candidate(s) found for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "INFO", "msg": "Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "INFO", "msg": "Route matched with {action = \"ReportToMonitor\", controller = \"Notice\"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Execution plan of authorization filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Execution plan of resource filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Execution plan of exception filters (in the following order): None" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ..." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\", Request id \"0HMPNA6KAPGVB:00000003\": started reading request body." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\", Request id \"0HMPNA6KAPGVB:00000003\": done reading request body." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage'" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "INFO", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage)" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "執行成功:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "INFO", "msg": "Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3735ms." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter" }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "No information found on request to perform content negotiation." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Attempting to select an output formatter without using a content type as no explicit content types were specified for the response." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Attempting to select the first formatter in the output formatters list which can write the result." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "DEBUG", "msg": "Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "INFO", "msg": "Executing OkObjectResult, writing value of type 'System.String'." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:20:22.725", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:22.738", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:20:22.738", "level": "INFO", "msg": "Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 3.855ms" }
+{ "Date": "2023-04-07 18:20:22.738", "level": "INFO", "msg": "Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:20:22.738", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\" completed keep alive response." }
+{ "Date": "2023-04-07 18:20:22.738", "level": "INFO", "msg": "Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273 - 200 - text/plain;+charset=utf-8 12.8797ms" }
+{ "Date": "2023-04-07 18:20:44.346", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:21:08.552", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "INFO", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:21:15.982", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "All hosts are allowed." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "1 candidate(s) found for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor'" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Route matched with {action = \"ReportToMonitor\", controller = \"Notice\"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Execution plan of authorization filters (in the following order): None" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Execution plan of resource filters (in the following order): None" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Execution plan of exception filters (in the following order): None" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host)" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ..." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\", Request id \"0HMPNA6KAPGVB:00000004\": started reading request body." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\", Request id \"0HMPNA6KAPGVB:00000004\": done reading request body." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage'" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ..." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage)" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "執行開始:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0384ms." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "No information found on request to perform content negotiation." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Attempting to select an output formatter without using a content type as no explicit content types were specified for the response." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Attempting to select the first formatter in the output formatters list which can write the result." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Executing OkObjectResult, writing value of type 'System.String'." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "TRACE", "msg": "Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 1.433ms" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)'" }
+{ "Date": "2023-04-07 18:21:26.568", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGVB\" completed keep alive response." }
+{ "Date": "2023-04-07 18:21:26.568", "level": "INFO", "msg": "Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272 - 200 - text/plain;+charset=utf-8 7.1545ms" }
+{ "Date": "2023-04-07 18:21:43.458", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:22:08.579", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "INFO", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:22:15.993", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:22:31.024", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV9\" received FIN." }
+{ "Date": "2023-04-07 18:22:31.052", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV9\" sending FIN because: \"The client closed the connection.\"" }
+{ "Date": "2023-04-07 18:22:31.052", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV9\" disconnecting." }
+{ "Date": "2023-04-07 18:22:31.052", "level": "DEBUG", "msg": "Connection id \"0HMPNA6KAPGV9\" stopped." }
+{ "Date": "2023-04-07 18:22:45.494", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:23:09.107", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "TRACE", "msg": "[Service Warning]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.82 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "WARN", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.82 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:23:15.989", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:23:44.212", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:24:12.463", "level": "DEBUG", "msg": "Batch acquisition of 1 triggers" }
+{ "Date": "2023-04-07 18:24:15.987", "level": "DEBUG", "msg": "Calling Execute on job DEFAULT.CheckerJob" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 2.82 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 2.82 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "TRACE", "msg": "[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "DEBUG", "msg": "Trigger instruction : NoInstruction" }
+{ "Date": "2023-04-07 18:24:15.990", "level": "DEBUG", "msg": "Batch acquisition of 0 triggers" }
+{ "Date": "2023-04-07 18:25:08.834", "level": "INFO", "msg": "go into Main" }
+{ "Date": "2023-04-07 18:25:09.158", "level": "INFO", "msg": "Start UseStartup..." }
+{ "Date": "2023-04-07 18:25:09.158", "level": "INFO", "msg": "Finish UseStartup..." }
+{ "Date": "2023-04-07 18:25:09.632", "level": "INFO", "msg": "_appRootPath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host" }
+{ "Date": "2023-04-07 18:25:09.632", "level": "INFO", "msg": "filePath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host\\App_Data/Scheduler.json" }
+{ "Date": "2023-04-07 18:25:09.767", "level": "INFO", "msg": "jobFilePath: C:\\Users\\Alvin.chen\\Documents\\Source\\MonitorService\\IndoCash.MonitorService\\IndoCash.MonitorService.Host\\App_Data/Autofac/Job.json" }
+{ "Date": "2023-04-07 18:25:10.234", "level": "INFO", "msg": "Scheduler Start..." }
+{ "Date": "2023-04-07 18:25:11.445", "level": "TRACE", "msg": "執行開始:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345" }
+{ "Date": "2023-04-07 18:25:15.408", "level": "TRACE", "msg": "執行成功:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345" }
+{ "Date": "2023-04-07 18:25:20.282", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:25:20.287", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:25:20.287", "level": "INFO", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中" }
+{ "Date": "2023-04-07 18:25:20.287", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:25:20.287", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }
+{ "Date": "2023-04-07 18:26:20.260", "level": "TRACE", "msg": "CheckerJob Execute" }
+{ "Date": "2023-04-07 18:26:20.260", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1" }
+{ "Date": "2023-04-07 18:26:20.260", "level": "WARN", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.08 分鐘以上沒有回應!" }
+{ "Date": "2023-04-07 18:26:20.260", "level": "TRACE", "msg": "正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2" }
+{ "Date": "2023-04-07 18:26:20.260", "level": "ERROR", "msg": "192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄!" }

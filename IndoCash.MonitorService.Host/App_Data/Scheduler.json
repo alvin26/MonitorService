@@ -1,0 +1,13 @@
+{
+  "Scheduler": {
+    "ThreadCount": "1",
+    "JobSettings": [
+      {
+        "Name": "CheckerJob",
+        "StartDelayInSeconds": 10,
+        "RepeatIntervalInSeconds": 60,
+        "Enable": "true"
+      }
+    ]
+  }
+}

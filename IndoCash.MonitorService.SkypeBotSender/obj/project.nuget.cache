@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ARW/zaMG+KqoRl+kbqsnUlTHtJtJ7wKkp1IwgpLhRGAo0bEKbw1sQVtpUNgZcSpDraMJ1koTGRMKrRff+zEO+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alvin\\Downloads\\IndoCash.MonitorService.20230407\\IndoCash.MonitorService\\IndoCash.MonitorService.SkypeBotSender\\IndoCash.MonitorService.SkypeBotSender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alvin\\.nuget\\packages\\nlog\\5.0.5\\nlog.5.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

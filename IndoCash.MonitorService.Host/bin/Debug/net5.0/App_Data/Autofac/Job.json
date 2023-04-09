@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "type": "IndoCash.MonitorService.CheckerJob.CheckerJob, IndoCash.MonitorService.CheckerJob",
+      "services": [
+        {
+          "type": "IndoCash.MonitorService.CheckerJob.Interfaces.IJobExecute, IndoCash.MonitorService.CheckerJob",
+          "key": "CheckerJob"
+        }
+      ],
+      "injectProperties": true,
+      "parameters": {
+        "jobType": "CheckerJob"
+      }
+    }
+    
+  ]
+}

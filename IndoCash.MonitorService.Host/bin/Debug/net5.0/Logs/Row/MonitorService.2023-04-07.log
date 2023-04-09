@@ -1,0 +1,495 @@
+2023-04-07 18:17:23.2245|INFO|MonitorService|go into Main 
+2023-04-07 18:17:23.5196|INFO|MonitorService|Start UseStartup... 
+2023-04-07 18:17:23.5196|INFO|MonitorService|Finish UseStartup... 
+2023-04-07 18:17:23.9305|INFO|MonitorService|_appRootPath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host 
+2023-04-07 18:17:23.9305|INFO|MonitorService|filePath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host\App_Data/Scheduler.json 
+2023-04-07 18:17:24.1107|INFO|MonitorService|jobFilePath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host\App_Data/Autofac/Job.json 
+2023-04-07 18:17:24.5017|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 1 and TaskScheduler ThreadPoolTaskScheduler. 
+2023-04-07 18:17:24.5290|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2023-04-07 18:17:24.5290|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created 
+2023-04-07 18:17:24.5290|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory 
+2023-04-07 18:17:24.5290|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized. 
+2023-04-07 18:17:24.5290|INFO|Quartz.Impl.StdSchedulerFactory|Quartz Scheduler 3.6.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized 
+2023-04-07 18:17:24.5290|INFO|Quartz.Impl.StdSchedulerFactory|Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 1 
+2023-04-07 18:17:24.5290|INFO|Quartz.Impl.StdSchedulerFactory|Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False 
+2023-04-07 18:17:24.5381|INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2023-04-07 18:17:24.5381|INFO|MonitorService.JobConfigure|Scheduler Start... 
+2023-04-07 18:17:24.5381|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:17:24.5381|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:17:24.6959|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-04-07 18:17:24.8840|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-04-07 18:17:24.8840|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly IndoCash.MonitorService.Host 
+2023-04-07 18:17:24.8840|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-04-07 18:17:24.8840|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-04-07 18:17:24.8840|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-04-07 18:17:24.8840|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-04-07 18:17:24.8840|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host 
+2023-04-07 18:17:24.8840|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-04-07 18:17:24.9312|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4O" accepted. 
+2023-04-07 18:17:24.9312|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4O" started. 
+2023-04-07 18:17:24.9312|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4P" accepted. 
+2023-04-07 18:17:24.9312|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4P" started. 
+2023-04-07 18:17:24.9677|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA5462E4P" received FIN. 
+2023-04-07 18:17:24.9677|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA5462E4O" received FIN. 
+2023-04-07 18:17:24.9748|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4P" disconnecting. 
+2023-04-07 18:17:24.9748|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA5462E4O" sending FIN because: "The client closed the connection." 
+2023-04-07 18:17:24.9748|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA5462E4P" sending FIN because: "The client closed the connection." 
+2023-04-07 18:17:24.9748|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4O" disconnecting. 
+2023-04-07 18:17:24.9748|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4O" stopped. 
+2023-04-07 18:17:24.9748|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4P" stopped. 
+2023-04-07 18:17:25.2253|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4Q" accepted. 
+2023-04-07 18:17:25.2253|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4Q" started. 
+2023-04-07 18:17:25.2725|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4R" accepted. 
+2023-04-07 18:17:25.2725|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4R" started. 
+2023-04-07 18:17:25.2725|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast - - 
+2023-04-07 18:17:25.3056|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-04-07 18:17:25.3056|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-07 18:17:25.3361|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/weatherforecast' 
+2023-04-07 18:17:25.3361|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast' 
+2023-04-07 18:17:25.3361|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' 
+2023-04-07 18:17:25.3361|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' 
+2023-04-07 18:17:25.3476|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-04-07 18:17:25.3647|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[IndoCash.MonitorService.Host.WeatherForecast] Get() on controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host). 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host) 
+2023-04-07 18:17:25.3647|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host) 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:25.3647|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) - Validation state: Valid 
+2023-04-07 18:17:25.3647|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5665ms. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:25.3647|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:25.3792|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-04-07 18:17:25.3792|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-04-07 18:17:25.3792|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-04-07 18:17:25.3792|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-04-07 18:17:25.3792|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-04-07 18:17:25.3792|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-04-07 18:17:25.3792|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'IndoCash.MonitorService.Host.WeatherForecast[]'. 
+2023-04-07 18:17:25.4904|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-04-07 18:17:25.4904|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:25.4904|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:25.4904|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) in 124.2282ms 
+2023-04-07 18:17:25.4904|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' 
+2023-04-07 18:17:25.4904|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4Q" completed keep alive response. 
+2023-04-07 18:17:25.4904|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5000/weatherforecast - - - 200 - application/json;+charset=utf-8 228.1928ms 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4S" accepted. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4S" started. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA5462E4S" received FIN. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA5462E4S" sending FIN because: "The client closed the connection." 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4S" disconnecting. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4T" accepted. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4S" stopped. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4T" started. 
+2023-04-07 18:17:29.1315|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273 
+2023-04-07 18:17:29.1315|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:17:29.1315|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:17:29.1315|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:17:29.1516|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ReportToMonitor", controller = "Notice"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host). 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:17:29.1516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:17:29.1599|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ... 
+2023-04-07 18:17:29.1599|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2023-04-07 18:17:29.1599|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4T", Request id "0HMPNA5462E4T:00000002": started reading request body. 
+2023-04-07 18:17:29.1599|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4T", Request id "0HMPNA5462E4T:00000002": done reading request body. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage' 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:29.1791|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage) 
+2023-04-07 18:17:29.1791|ERROR|IndoCash.MonitorService.Host.Models.Recorder|執行失敗:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345 
+2023-04-07 18:17:29.1791|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.5901ms. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2023-04-07 18:17:29.1791|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:29.1791|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:17:29.1791|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 35.5065ms 
+2023-04-07 18:17:29.1791|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:17:29.1791|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA5462E4T" completed keep alive response. 
+2023-04-07 18:17:29.1791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273 - 200 - text/plain;+charset=utf-8 52.0356ms 
+2023-04-07 18:17:34.5704|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:17:34.5853|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:17:34.5853|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:17:34.5853|INFO|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中 
+2023-04-07 18:17:34.5853|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:17:34.5853|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:17:34.5853|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:17:34.5853|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:17:34.5992|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:17:58.8961|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:18:23.1126|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:18:34.5567|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:18:34.5567|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:18:34.5567|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:18:34.5567|TRACE|SkypeBotSender|[Service Warning]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.09 分鐘以上沒有回應! 
+2023-04-07 18:18:34.5567|WARN|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.09 分鐘以上沒有回應! 
+2023-04-07 18:18:34.5662|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:18:34.5662|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:18:34.5662|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:18:34.5662|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:18:34.5662|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:19:02.5963|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:20:04.8032|INFO|MonitorService|go into Main 
+2023-04-07 18:20:04.9869|INFO|MonitorService|Start UseStartup... 
+2023-04-07 18:20:04.9887|INFO|MonitorService|Finish UseStartup... 
+2023-04-07 18:20:05.4117|INFO|MonitorService|_appRootPath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host 
+2023-04-07 18:20:05.4117|INFO|MonitorService|filePath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host\App_Data/Scheduler.json 
+2023-04-07 18:20:05.5861|INFO|MonitorService|jobFilePath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host\App_Data/Autofac/Job.json 
+2023-04-07 18:20:05.9401|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 1 and TaskScheduler ThreadPoolTaskScheduler. 
+2023-04-07 18:20:05.9648|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl 
+2023-04-07 18:20:05.9648|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created 
+2023-04-07 18:20:05.9648|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Autofac.Extras.Quartz.AutofacJobFactory 
+2023-04-07 18:20:05.9648|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized. 
+2023-04-07 18:20:05.9648|INFO|Quartz.Impl.StdSchedulerFactory|Quartz Scheduler 3.6.0.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized 
+2023-04-07 18:20:05.9648|INFO|Quartz.Impl.StdSchedulerFactory|Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 1 
+2023-04-07 18:20:05.9648|INFO|Quartz.Impl.StdSchedulerFactory|Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False 
+2023-04-07 18:20:05.9730|INFO|Quartz.Core.QuartzScheduler|Scheduler QuartzScheduler_$_NON_CLUSTERED started. 
+2023-04-07 18:20:05.9730|INFO|MonitorService.JobConfigure|Scheduler Start... 
+2023-04-07 18:20:05.9730|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:20:05.9730|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:20:06.1461|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-04-07 18:20:06.3477|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-04-07 18:20:06.3477|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly IndoCash.MonitorService.Host 
+2023-04-07 18:20:06.3477|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-04-07 18:20:06.3477|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-04-07 18:20:06.3477|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-04-07 18:20:06.3477|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-04-07 18:20:06.3477|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host 
+2023-04-07 18:20:06.3477|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-04-07 18:20:06.4849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGV7" received FIN. 
+2023-04-07 18:20:06.4849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGV6" received FIN. 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV6" accepted. 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV7" accepted. 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV6" started. 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV7" started. 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGV7" sending FIN because: "The client closed the connection." 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGV6" sending FIN because: "The client closed the connection." 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV6" disconnecting. 
+2023-04-07 18:20:06.4928|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV7" disconnecting. 
+2023-04-07 18:20:06.5043|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV6" stopped. 
+2023-04-07 18:20:06.5043|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV7" stopped. 
+2023-04-07 18:20:06.6798|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV8" accepted. 
+2023-04-07 18:20:06.6798|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV8" started. 
+2023-04-07 18:20:06.7229|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast - - 
+2023-04-07 18:20:06.7394|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV9" accepted. 
+2023-04-07 18:20:06.7394|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV9" started. 
+2023-04-07 18:20:06.7570|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-04-07 18:20:06.7570|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-07 18:20:06.7881|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/weatherforecast' 
+2023-04-07 18:20:06.7881|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast' 
+2023-04-07 18:20:06.7881|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:06.7881|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:06.7881|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-04-07 18:20:06.8095|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[IndoCash.MonitorService.Host.WeatherForecast] Get() on controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host). 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host) 
+2023-04-07 18:20:06.8095|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.WeatherForecastController (IndoCash.MonitorService.Host) 
+2023-04-07 18:20:06.8095|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:06.8163|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) - Validation state: Valid 
+2023-04-07 18:20:06.8163|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0385ms. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:06.8163|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:06.8337|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-04-07 18:20:06.8337|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-04-07 18:20:06.8337|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-04-07 18:20:06.8337|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-04-07 18:20:06.8337|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-04-07 18:20:06.8337|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-04-07 18:20:06.8337|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'IndoCash.MonitorService.Host.WeatherForecast[]'. 
+2023-04-07 18:20:06.9357|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-04-07 18:20:06.9357|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:06.9357|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:06.9421|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host) in 127.8226ms 
+2023-04-07 18:20:06.9421|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'IndoCash.MonitorService.Host.Controllers.WeatherForecastController.Get (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:06.9421|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV8" completed keep alive response. 
+2023-04-07 18:20:06.9421|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5000/weatherforecast - - - 200 - application/json;+charset=utf-8 228.6776ms 
+2023-04-07 18:20:16.0046|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:20:16.0193|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:20:16.0193|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:20:16.0193|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 異常! 沒有活動紀錄! 
+2023-04-07 18:20:16.0193|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 異常! 沒有活動紀錄! 
+2023-04-07 18:20:16.0193|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:20:16.0193|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:20:16.0193|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:20:16.0193|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:20:16.0193|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVA" accepted. 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGVA" received FIN. 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVA" started. 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGVA" sending FIN because: "The client closed the connection." 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVA" disconnecting. 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB" accepted. 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVA" stopped. 
+2023-04-07 18:20:17.1868|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB" started. 
+2023-04-07 18:20:17.1913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272 
+2023-04-07 18:20:17.1913|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-07 18:20:17.1913|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:20:17.1913|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:20:17.1913|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:17.1913|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:17.2067|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ReportToMonitor", controller = "Notice"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host). 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ... 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB", Request id "0HMPNA6KAPGVB:00000002": started reading request body. 
+2023-04-07 18:20:17.2067|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB", Request id "0HMPNA6KAPGVB:00000002": done reading request body. 
+2023-04-07 18:20:17.2344|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage' 
+2023-04-07 18:20:17.2344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:20:17.2344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:20:17.2344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:20:17.2344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:17.2378|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage) 
+2023-04-07 18:20:17.2378|TRACE|IndoCash.MonitorService.Host.Models.Recorder|執行開始:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345 
+2023-04-07 18:20:17.2378|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.4355ms. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:20:17.2378|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-04-07 18:20:17.2378|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-04-07 18:20:17.2378|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-04-07 18:20:17.2378|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-04-07 18:20:17.2378|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2023-04-07 18:20:17.2378|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:17.2378|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:17.2378|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 36.9955ms 
+2023-04-07 18:20:17.2378|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:17.2378|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB" completed keep alive response. 
+2023-04-07 18:20:17.2378|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272 - 200 - text/plain;+charset=utf-8 53.0926ms 
+2023-04-07 18:20:22.7254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:22.7254|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:22.7254|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ReportToMonitor", controller = "Notice"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host). 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ... 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB", Request id "0HMPNA6KAPGVB:00000003": started reading request body. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB", Request id "0HMPNA6KAPGVB:00000003": done reading request body. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage' 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:22.7254|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage) 
+2023-04-07 18:20:22.7254|TRACE|IndoCash.MonitorService.Host.Models.Recorder|執行成功:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345 
+2023-04-07 18:20:22.7254|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3735ms. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-04-07 18:20:22.7254|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2023-04-07 18:20:22.7254|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:20:22.7254|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:22.7381|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:20:22.7381|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 3.855ms 
+2023-04-07 18:20:22.7381|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:20:22.7381|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB" completed keep alive response. 
+2023-04-07 18:20:22.7381|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 273 - 200 - text/plain;+charset=utf-8 12.8797ms 
+2023-04-07 18:20:44.3468|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:21:08.5521|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:21:15.9824|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:21:15.9824|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:21:15.9824|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:21:15.9824|INFO|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中 
+2023-04-07 18:21:15.9824|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:21:15.9824|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:21:15.9824|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:21:15.9824|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:21:15.9824|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' with route pattern 'api/Notice/ReportToMonitor' is valid for the request path '/api/Notice/ReportToMonitor' 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ReportToMonitor", controller = "Notice"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReportToMonitor(IndoCash.MonitorService.Host.Models.NoticeMessage) on controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host). 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller IndoCash.MonitorService.Host.Controllers.NoticeController (IndoCash.MonitorService.Host) 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' using the name '' in request data ... 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB", Request id "0HMPNA6KAPGVB:00000004": started reading request body. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB", Request id "0HMPNA6KAPGVB:00000004": done reading request body. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'IndoCash.MonitorService.Host.Models.NoticeMessage' 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage' ... 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'msg' of type 'IndoCash.MonitorService.Host.Models.NoticeMessage'. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) - Validation state: Valid 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) with arguments (IndoCash.MonitorService.Host.Models.NoticeMessage) 
+2023-04-07 18:21:26.5682|TRACE|IndoCash.MonitorService.Host.Models.Recorder|執行開始:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0384ms. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:21:26.5682|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host) in 1.433ms 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'IndoCash.MonitorService.Host.Controllers.NoticeController.ReportToMonitor (IndoCash.MonitorService.Host)' 
+2023-04-07 18:21:26.5682|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGVB" completed keep alive response. 
+2023-04-07 18:21:26.5682|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5000/api/Notice/ReportToMonitor application/json 272 - 200 - text/plain;+charset=utf-8 7.1545ms 
+2023-04-07 18:21:43.4583|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:22:08.5790|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:22:15.9933|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:22:15.9933|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:22:15.9933|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:22:15.9933|INFO|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中 
+2023-04-07 18:22:15.9933|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:22:15.9933|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:22:15.9933|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:22:15.9933|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:22:15.9933|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:22:31.0241|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGV9" received FIN. 
+2023-04-07 18:22:31.0524|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMPNA6KAPGV9" sending FIN because: "The client closed the connection." 
+2023-04-07 18:22:31.0524|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV9" disconnecting. 
+2023-04-07 18:22:31.0524|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMPNA6KAPGV9" stopped. 
+2023-04-07 18:22:45.4943|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:23:09.1073|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:23:15.9896|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:23:15.9896|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:23:15.9896|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:23:15.9896|TRACE|SkypeBotSender|[Service Warning]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.82 分鐘以上沒有回應! 
+2023-04-07 18:23:15.9896|WARN|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.82 分鐘以上沒有回應! 
+2023-04-07 18:23:15.9896|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:23:15.9896|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:23:15.9896|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:23:15.9896|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:23:15.9896|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:23:44.2126|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:24:12.4633|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers 
+2023-04-07 18:24:15.9874|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CheckerJob 
+2023-04-07 18:24:15.9900|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:24:15.9900|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:24:15.9900|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 2.82 分鐘以上沒有回應! 
+2023-04-07 18:24:15.9900|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 2.82 分鐘以上沒有回應! 
+2023-04-07 18:24:15.9900|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:24:15.9900|TRACE|SkypeBotSender|[Service Error]: 192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:24:15.9900|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:24:15.9900|DEBUG|Quartz.Core.JobRunShell|Trigger instruction : NoInstruction 
+2023-04-07 18:24:15.9900|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers 
+2023-04-07 18:25:08.8349|INFO|MonitorService|go into Main 
+2023-04-07 18:25:09.1583|INFO|MonitorService|Start UseStartup... 
+2023-04-07 18:25:09.1583|INFO|MonitorService|Finish UseStartup... 
+2023-04-07 18:25:09.6327|INFO|MonitorService|_appRootPath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host 
+2023-04-07 18:25:09.6327|INFO|MonitorService|filePath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host\App_Data/Scheduler.json 
+2023-04-07 18:25:09.7678|INFO|MonitorService|jobFilePath: C:\Users\Alvin.chen\Documents\Source\MonitorService\IndoCash.MonitorService\IndoCash.MonitorService.Host\App_Data/Autofac/Job.json 
+2023-04-07 18:25:10.2343|INFO|MonitorService.JobConfigure|Scheduler Start... 
+2023-04-07 18:25:11.4453|TRACE|IndoCash.MonitorService.Host.Models.Recorder|執行開始:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345 
+2023-04-07 18:25:15.4080|TRACE|IndoCash.MonitorService.Host.Models.Recorder|執行成功:192.168.1.1,MyHost,Account,Job1,QueryBalance,1111234512345 
+2023-04-07 18:25:20.2822|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:25:20.2875|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:25:20.2875|INFO|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 正常工作中 
+2023-04-07 18:25:20.2875|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:25:20.2875|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
+2023-04-07 18:26:20.2606|TRACE|MonitorService.CheckerJob|CheckerJob Execute 
+2023-04-07 18:26:20.2606|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job1 
+2023-04-07 18:26:20.2606|WARN|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job1 已經 1.08 分鐘以上沒有回應! 
+2023-04-07 18:26:20.2606|TRACE|MonitorService.CheckerJob|正在檢查 service:192.168.44.53,DESKTOP-MA35BBN,Account,Job2 
+2023-04-07 18:26:20.2606|ERROR|MonitorService.CheckerJob|192.168.44.53,DESKTOP-MA35BBN,Account,Job2 異常! 沒有活動紀錄! 
