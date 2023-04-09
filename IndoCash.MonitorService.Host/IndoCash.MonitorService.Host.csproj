@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.5.0" />
+    <PackageReference Include="Autofac.Configuration" Version="6.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Autofac.Extras.Quartz" Version="8.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NLog" Version="5.0.5" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="internal-nlog\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IndoCash.MonitorService.AlertSender\IndoCash.MonitorService.AlertSender.csproj" />
+    <ProjectReference Include="..\IndoCash.MonitorService.CheckerJob\IndoCash.MonitorService.CheckerJob.csproj" />
+    <ProjectReference Include="..\IndoCash.MonitorService.SkypeBotSender\IndoCash.MonitorService.SkypeBotSender.csproj" />
+    <ProjectReference Include="..\IndoCash.MonitorService.Utils\IndoCash.MonitorService.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
