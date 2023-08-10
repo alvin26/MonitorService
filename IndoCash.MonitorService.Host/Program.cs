@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -45,6 +46,7 @@ namespace IndoCash.MonitorService.Host
                 {
                     logging.ClearProviders();
                 })
-                .UseNLog();
+                .UseNLog()
+                .UseWindowsService();
     }
 }

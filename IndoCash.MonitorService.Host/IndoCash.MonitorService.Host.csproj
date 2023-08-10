@@ -2,7 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Configurations>Debug;Release;Staging</Configurations>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings.Debug.json" />
+    <Content Remove="appsettings.Release.json" />
+    <Content Remove="appsettings.Staging.json" />
+    <Content Remove="nlog.Debug.config" />
+    <Content Remove="nlog.Release.config" />
+    <Content Remove="nlog.Staging.config" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.5.0" />
@@ -10,25 +20,56 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Autofac.Extras.Quartz" Version="8.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="6.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.SlowCheetah" Version="4.0.50">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="NLog" Version="5.0.5" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.5" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="appsettings.Development.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TransformOnBuild>true</TransformOnBuild>
     </Content>
     <Content Update="nlog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TransformOnBuild>true</TransformOnBuild>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="internal-nlog\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.Debug.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+    <None Include="appsettings.Release.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+    <None Include="appsettings.Staging.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+    <None Include="nlog.Debug.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>nlog.config</DependentUpon>
+    </None>
+    <None Include="nlog.Release.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>nlog.config</DependentUpon>
+    </None>
+    <None Include="nlog.Staging.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>nlog.config</DependentUpon>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

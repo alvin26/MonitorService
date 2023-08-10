@@ -1,6 +1,6 @@
 {
   "Scheduler": {
-    "ThreadCount": "1",
+    "ThreadCount": "5",
     "JobSettings": [
       {
         "Name": "CheckerJob",

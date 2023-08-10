@@ -13,7 +13,7 @@ namespace IndoCash.MonitorService.Utils.Models
         private readonly UnitHelper _unitHelper;
         public MyService()
         {
-            
+
         }
         public MyService(
             NamedConcurrentDictionary<string, DateTime> dicActionRec,
@@ -24,6 +24,35 @@ namespace IndoCash.MonitorService.Utils.Models
             _dicServiceRec = dicServiceRec;
             _unitHelper = unitHelper;
         }
+        // virtual for unit test
+        public virtual NamedConcurrentDictionary<string, DateTime> DicActionRec { get { return _dicActionRec; } }
+        public virtual NamedConcurrentDictionary<string, DateTime> DicServiceRec { get { return _dicServiceRec; } }
+
+        /// <summary>
+        /// 一段時間後還留存在 NamedConcurrentDictionary 中的必定不會再回呼了
+        /// 所以視為無效 進行移除
+        /// </summary>
+        public virtual void RemoveInvalidKey()
+        {
+            double 幾小時後一律移除 = 72;
+            var keys = _dicServiceRec.Keys.ToList();
+            foreach (var key in keys)
+            {
+                try
+                {
+                    var dttm = _dicServiceRec[key];
+                    var diff = _unitHelper.GetNow().Subtract(dttm).TotalHours;
+                    if (diff >= 幾小時後一律移除)
+                    {
+                        _dicServiceRec.TryRemove(key, out dttm);
+                    }
+                }
+                catch (Exception ex)
+                {
+                }
+            }
+        }
+
         public bool RemoveDicActionRecByKey(string key)
         {
             bool rst = false;
@@ -77,12 +106,9 @@ namespace IndoCash.MonitorService.Utils.Models
         public virtual DateTime? GetDicServiceRecValueByKey(string key)
         {
             var list = _dicServiceRec.ToList();
-            foreach (var item in list)
+            if (_dicServiceRec.ContainsKey(key))
             {
-                if (item.Key.IndexOf(key) >= 0)
-                {
-                    return item.Value;
-                }
+                return _dicServiceRec[key];
             }
             return null;
         }

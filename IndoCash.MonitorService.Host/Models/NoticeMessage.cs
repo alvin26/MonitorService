@@ -10,6 +10,7 @@ namespace IndoCash.MonitorService.Host.Models
         public string MachineName { get; set; }
         public string ServiceName { get; set; }
         public string JobName { get; set; }
+        public string ControllerName { get; set; }
         public string ActionName { get; set; }
         public string StartTime { get; set; }
         public string EndTime { get; set; }

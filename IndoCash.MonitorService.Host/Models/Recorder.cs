@@ -31,32 +31,28 @@ namespace IndoCash.MonitorService.Host.Models
         /// <param name="msg"></param>
         public void SetRecord(NoticeMessage msg)
         {
-            var ActionKey = $"{msg.IP},{msg.MachineName},{msg.ServiceName},{msg.JobName},{msg.ActionName},{msg.Guid}";
             var ServiceKey = $"{msg.IP},{msg.MachineName},{msg.ServiceName},{msg.JobName}";
-            _myService.SetDicServiceRecKeyValue(ServiceKey, DateTime.Now);
-
-
-            //成功執行就不做紀錄
-            if (msg.IsSuccess.Equals("Y"))
+            try
             {
-                _logger.LogTrace($"執行成功:{ActionKey}");
+                //yyyy-MM-dd HH:mm:ss.fff
+                var arrDttm = msg.EndTime.Split(' ');
+                var arrDate = arrDttm[0].Split('-');
+                var arrTime = arrDttm[1].Split(":");
+                var arrMs = arrTime[2].Split('.');
+                int year = int.Parse(arrDate[0]);
+                int month = int.Parse(arrDate[1]);
+                int day = int.Parse(arrDate[2]);
+                int hour = int.Parse(arrTime[0]);
+                int min = int.Parse(arrTime[1]);
+                int sec = int.Parse(arrMs[0]);
+                DateTime dttm = new DateTime(year, month, day, hour, min, sec);
+                _myService.SetDicServiceRecKeyValue(ServiceKey, dttm);
+                _logger.LogTrace($"收到 {ServiceKey} 回報 {msg.EndTime}");
 
-                _myService.RemoveDicActionRecByKey(ActionKey);
             }
-            else if (msg.IsSuccess.Equals("N"))
+            catch (Exception ex)
             {
-                //失敗要 Log 下來
-                _logger.LogError($"執行失敗:{ActionKey}");
-
-                _myService.RemoveDicActionRecByKey(ActionKey);
-
-            }
-            else
-            {
-                _logger.LogTrace($"執行開始:{ActionKey}");
-
-                //開始執行要做紀錄
-                _myService.SetDicActionRecKeyValue(ActionKey, DateTime.Now);
+                _logger.LogError(ex, $"Parse msg fail:{ex.Message}");
             }
         }
 

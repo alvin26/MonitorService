@@ -6,7 +6,7 @@ namespace IndoCash.MonitorService.SkypeBotSender
 {
     public class SkypeMessageSender : ISender
     {
-        private readonly ILogger _logger = LogManager.GetLogger("SkypeBotSender");
+        private readonly ILogger _logger = LogManager.GetLogger("MonitorService.SkypeBotSender");
         public void SendAlert(string Message)
         {
             //to do

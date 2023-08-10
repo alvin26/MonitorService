@@ -1,119 +1,246 @@
 using IndoCash.MonitorService.AlertSender.Interfaces;
 using IndoCash.MonitorService.CheckerJob;
+using IndoCash.MonitorService.Utils;
 using IndoCash.MonitorService.Utils.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
 using Moq;
+using Newtonsoft.Json.Linq;
 using NLog;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Text;
 using Xunit;
 
 namespace IndoCash.MonitorService.CheckerJob.Test
 {
     public class CheckerJobTests
     {
-        private readonly CheckerJob _checkerJob;
-        private readonly Mock<MyService> _mockMyService = new Mock<MyService>();
-        private readonly Mock<ILogger> _mockLogger = new Mock<ILogger>();
-        private readonly Mock<ISender> _mockAlertSender = new Mock<ISender>();
-        private readonly Mock<IConfiguration> _mockConfiguration = new Mock<IConfiguration>();
-        private readonly Mock<CheckHelper> _mockCheckHelper = new Mock<CheckHelper>();
+        private readonly Mock<MyService> _myServiceMock;
+        private readonly Mock<ILogger> _loggerMock;
+        private readonly Mock<IConfiguration> _configurationMock;
+        private readonly Mock<ISender> _alertSenderMock;
         public CheckerJobTests()
         {
-            _checkerJob = new CheckerJob("TestJobType")
-            {
-                myService = _mockMyService.Object,
-                //_logger = _mockLogger.Object,
-                alertSender = _mockAlertSender.Object,
-                Configuration = _mockConfiguration.Object,
-                helper= _mockCheckHelper.Object,
-                _logger= _mockLogger.Object
-            };
+
+            _myServiceMock = new Mock<MyService>();
+            _loggerMock = new Mock<ILogger>();
+            _configurationMock = new Mock<IConfiguration>();
+            _alertSenderMock = new Mock<ISender>();
         }
-
-        class FakeConfigurationSection : IConfigurationSection
-        {
-
-            public FakeConfigurationSection(string key, string value)
-            {
-                this._key = key;
-                this._val = value;
-            }
-            public string this[string key] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-            string _key;
-            public string Key { get { return _key; } set { value = _key; } }
-
-            public string Path => throw new NotImplementedException();
-            string _val;
-            public string Value { get { return this._val; } set { _val = value; } }
-
-            public IEnumerable<IConfigurationSection> GetChildren()
-            {
-                List<FakeConfigurationSection> rtn = new List<FakeConfigurationSection>();
-                int idx = 0;
-                foreach (var item in _val.Split(','))
-                {
-                    rtn.Add(new FakeConfigurationSection($"{idx++}", item));
-                }
-                return rtn;
-            }
-
-            public IChangeToken GetReloadToken()
-            {
-                throw new NotImplementedException();
-            }
-
-            public IConfigurationSection GetSection(string key)
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-      
 
         [Fact]
-        public void Execute_ServiceLastUpdateDateTimeIsNull_SendsError()
+        public void 已經超過緩衝時間_分鐘_Test()
         {
-            // Arrange
-            var watchList = new List<FakeConfigurationSection>()
-            {
-                new FakeConfigurationSection("0","Account,Job1"),
-                new FakeConfigurationSection("1","Account,Job2")
-            };
-            _mockConfiguration.Setup(x => x.GetSection("WatchingList").GetChildren()).Returns(watchList);
-            string WarningMins = "5";
-            string ErrorMins = "10";
-            _mockConfiguration.Setup(x => x["WarningMins"]).Returns(WarningMins);
-            _mockConfiguration.Setup(x => x["ErrorMins"]).Returns(ErrorMins);
-            _mockMyService.Setup(x => x.GetDicServiceRecValueByKey("Account.Job1")).Returns((DateTime?)null);
-            var localIp = IPAddress.Parse("127.0.0.1"); 
-            var machineName = "TestMachine";
-            var watchName = "Account,Job1";
-            _mockCheckHelper.Setup(x => x.GetLocalIP()).Returns(localIp.ToString());
-            _mockCheckHelper.Setup(x => x.GetMachineName()).Returns(machineName);
-            _mockCheckHelper.Setup(x => x.GetNow()).Returns(DateTime.Now.AddMinutes(-(int.Parse(WarningMins)+1)));
-            //_mockAlertSender.Setup(x => x.SendAlert(It.IsAny<string>()));
-            // Act
-            _checkerJob.Execute();
 
+            // Arrange
+            var checkerJob = new CheckerJob("test");
+            checkerJob = new CheckerJob("test_job")
+            {
+                myService = _myServiceMock.Object,
+                Configuration = _configurationMock.Object,
+                alertSender = _alertSenderMock.Object,
+                _logger = _loggerMock.Object
+            };
+
+            // Act
+            var dttm = new DateTime(2023, 04, 28, 0, 0, 0);
+            var now = new DateTime(2023, 04, 28, 0, 2, 0);
+            var rst = checkerJob.IsMoreThanBufferMins(dttm, now, 2);
 
             // Assert
-            _mockAlertSender.Verify(x => x.SendAlert($"[Service Error]: {localIp},{machineName},{watchName} 異常! 沒有活動紀錄!"), Times.AtLeastOnce);
-            //_mockAlertSender.Verify(x => x.SendAlert($"[Service Error]: {localIp},{machineName},{watchName} 異常! 沒有活動紀錄!"));
-            _mockLogger.Verify(x => x.Error($"{localIp},{machineName},{watchName} 異常! 沒有活動紀錄!"), Times.AtLeastOnce);
+            Assert.Equal<bool>(true, rst);
         }
 
         [Fact]
-        public void Execute_NoConfiguration_ThrowsException()
+        public void Execute_NoWatchList_ThrowsException()
+        {
+
+            // Arrange
+            var checkerJob = new CheckerJob("test");
+            checkerJob = new CheckerJob("test_job")
+            {
+                myService = _myServiceMock.Object,
+                Configuration = _configurationMock.Object,
+                alertSender = _alertSenderMock.Object,
+                _logger = _loggerMock.Object
+            };
+
+            var dicActionRec = new NamedConcurrentDictionary<string, DateTime>("dicActionRec");
+            dicActionRec.TryAdd("action", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicActionRec).Returns(dicActionRec);
+
+            var dicServiceRec = new NamedConcurrentDictionary<string, DateTime>("dicServiceRec");
+            dicServiceRec.TryAdd("service", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicServiceRec).Returns(dicServiceRec);
+
+
+            _configurationMock.SetupGet(c => c["WarningMins"]).Returns("1");
+            _configurationMock.SetupGet(c => c["ErrorMins"]).Returns("2");
+            _configurationMock.Setup(c => c.GetSection("WatchingList")).Returns((IConfigurationSection)null);
+
+
+            // Act & Assert
+            var exception = Assert.Throws<Exception>(() => checkerJob.Execute());
+            Assert.Equal("Configuration WatchingList Section is null!", exception.Message);
+
+        }
+
+        [Fact]
+        public void Execute_NoWarningMinsConfiguration_ThrowsException()
+        {
+            // Arrange 
+            var checkerJob = new CheckerJob("test_job")
+            {
+                myService = _myServiceMock.Object,
+                Configuration = _configurationMock.Object,
+                alertSender = _alertSenderMock.Object,
+                _logger = _loggerMock.Object
+            };
+
+            var dicActionRec = new NamedConcurrentDictionary<string, DateTime>("dicActionRec");
+            dicActionRec.TryAdd("action", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicActionRec).Returns(dicActionRec);
+
+            var dicServiceRec = new NamedConcurrentDictionary<string, DateTime>("dicServiceRec");
+            dicServiceRec.TryAdd("service", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicServiceRec).Returns(dicServiceRec);
+
+            //string jsonString = @"{
+            //  ""urls"": ""http://localhost:17100"",
+            //  ""Logging"": {
+            //    ""LogLevel"": {
+            //      ""Default"": ""Information"",
+            //      ""Microsoft"": ""Warning"",
+            //      ""Microsoft.Hosting.Lifetime"": ""Information""
+            //    }
+            //  },
+            //  ""AllowedHosts"": ""*"",
+            //  ""WarningMins"": 1,
+            //  ""ErrorMins"": 2,
+            //  ""WatchingList"": [
+            //    ""AccountService,""
+            //  ]
+            //}"
+            //;
+
+
+            //var config = new ConfigurationBuilder().AddJsonStream(new MemoryStream(Encoding.ASCII.GetBytes(jsonString))).Build();
+            //_configurationMock.Setup(c => c.GetSection("WatchingList")).Returns(config.GetSection("WatchingList"));
+            //_configurationMock.Setup(c => c.GetSection("WatchingList")).Returns((IConfigurationSection)null);
+
+
+            _configurationMock.SetupGet(c => c["WarningMins"]).Returns((string)null);
+            _configurationMock.SetupGet(c => c["ErrorMins"]).Returns("2");
+
+
+
+            // Act & Assert 
+            var exception = Assert.Throws<Exception>(() => checkerJob.Execute());
+            Assert.Equal("Configuration WarningMins is null!", exception.Message);
+        }
+
+        [Fact]
+        public void Execute_NoErrorMinsConfiguration_ThrowsException()
+        {
+            // Arrange 
+            var checkerJob = new CheckerJob("test_job")
+            {
+                myService = _myServiceMock.Object,
+                Configuration = _configurationMock.Object,
+                alertSender = _alertSenderMock.Object,
+                _logger = _loggerMock.Object
+            };
+
+            var dicActionRec = new NamedConcurrentDictionary<string, DateTime>("dicActionRec");
+            dicActionRec.TryAdd("action", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicActionRec).Returns(dicActionRec);
+
+            var dicServiceRec = new NamedConcurrentDictionary<string, DateTime>("dicServiceRec");
+            dicServiceRec.TryAdd("service", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicServiceRec).Returns(dicServiceRec);
+
+            //string jsonString = @"{
+            //  ""urls"": ""http://localhost:17100"",
+            //  ""Logging"": {
+            //    ""LogLevel"": {
+            //      ""Default"": ""Information"",
+            //      ""Microsoft"": ""Warning"",
+            //      ""Microsoft.Hosting.Lifetime"": ""Information""
+            //    }
+            //  },
+            //  ""AllowedHosts"": ""*"",
+            //  ""WarningMins"": 1,
+            //  ""ErrorMins"": 2,
+            //  ""WatchingList"": [
+            //    ""AccountService,""
+            //  ]
+            //}"
+            //;
+
+
+            //var config = new ConfigurationBuilder().AddJsonStream(new MemoryStream(Encoding.ASCII.GetBytes(jsonString))).Build();
+
+            //_configurationMock.Setup(c => c.GetSection("WatchingList")).Returns(config.GetSection("WatchingList"));
+
+
+
+            _configurationMock.SetupGet(c => c["WarningMins"]).Returns("1");
+            _configurationMock.SetupGet(c => c["ErrorMins"]).Returns((string)null);
+
+
+
+            // Act & Assert 
+            var exception = Assert.Throws<Exception>(() => checkerJob.Execute());
+            Assert.Equal("Configuration ErrorMins is null!", exception.Message);
+        }
+
+        [Fact]
+        public void Execute_WithConfigurationIsNull_ShouldThrowException()
         {
             // Arrange
-            _mockConfiguration.Setup(x => x.GetSection("WatchingList")).Returns((IConfigurationSection)null);
+            var checkerJob = new CheckerJob("test");
+            checkerJob.myService = _myServiceMock.Object;
+            checkerJob.Configuration = null;
+            checkerJob.alertSender = _alertSenderMock.Object;
+            checkerJob._logger = _loggerMock.Object;
+
+            var dicActionRec = new NamedConcurrentDictionary<string, DateTime>("dicActionRec");
+            dicActionRec.TryAdd("action", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicActionRec).Returns(dicActionRec);
+
+            var dicServiceRec = new NamedConcurrentDictionary<string, DateTime>("dicServiceRec");
+            dicServiceRec.TryAdd("service", DateTime.Now);
+            _myServiceMock.SetupGet(myService => myService.DicServiceRec).Returns(dicServiceRec);
 
             // Act + Assert
-            Assert.Throws<Exception>(() => _checkerJob.Execute());
+            var exception = Assert.Throws<Exception>(() => checkerJob.Execute());
+            Assert.Equal("Configuration inject fail!", exception.Message);
+        }
+
+        [Fact]
+        public void Execute_WithMyServiceIsNull_ShouldThrowException()
+        {
+            // Arrange
+            var checkerJob = new CheckerJob("test");
+            //checkerJob.Configuration = new ConfigurationBuilder()
+            //    .AddInMemoryCollection(new Dictionary<string, string>()
+            //    {
+            //        { "WarningMins", "1" },
+            //        { "ErrorMins", "2" }
+            //    })
+            //    .Build();
+            //checkerJob.alertSender = _alertSenderMock.Object;
+            //checkerJob._logger = _loggerMock.Object;
+            checkerJob.myService = null;
+
+            // Act + Assert 
+            var exception = Assert.Throws<Exception>(() => checkerJob.Execute());
+            Assert.Equal("MyService inject fail!", exception.Message);
         }
     }
 }
